@@ -45,7 +45,7 @@ C:\path\to\project> flutter run
 
 ## Switch Theme
 
-Long press to switch Theme
+**Long press to switch Theme**
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -86,6 +86,12 @@ What things you need to run the app
 
 - [**Twitter**](https://twitter.com/_regnex)
 - [**Linkedin**](https://linkedin.com/in/etornam-sunu)
+
+## Inspiration
+
+**Subramanian**
+
+- [**Subramanian**](https://www.uplabs.com/subhu)
 
 ## License
 
