@@ -17,7 +17,7 @@ This project is an implementation of a Design i found on [Uplabs.com](https://ww
 
 <img align="left" src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_1.png" width="200" height="400"/>
 <img src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_2.png" width="200" height="400"/>
-<img src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_3.png"  height="500"/>
+<img src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_3.png" width="50%"  height="50%"/>
 
 ## Getting Started
 
