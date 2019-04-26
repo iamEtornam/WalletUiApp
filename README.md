@@ -14,9 +14,10 @@ This project is an implementation of a Design i found on [Uplabs.com](https://ww
 
 ## Art
 
-<img align="left" src="https://github.com/RegNex/WalletUiApp/blob/master/screenshot/art_1.png" width="200" height="400"/>
-<img src="https://github.com/RegNex/WalletUiApp/blob/master/screenshot/art_2.png" width="200" height="400"/>
-<img src="https://github.com/RegNex/WalletUiApp/blob/master/screenshot/art_3.png"  height="500"/>
+
+<img align="left" src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_1.png" width="200" height="400"/>
+<img src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_2.png" width="200" height="400"/>
+<img src="https://raw.githubusercontent.com/RegNex/WalletUiApp/master/screenshot/art_3.png"  height="500"/>
 
 ## Getting Started
 
@@ -46,6 +47,8 @@ C:\path\to\project> flutter run
 ## Switch Theme
 
 **Long press to switch Theme**
+
+## Resources
 
 A few resources to get you started if this is your first Flutter project:
 
