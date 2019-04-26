@@ -80,7 +80,7 @@ What things you need to run the app
 - [Android Studio](https://developer.android.com/studio/install) - How to install Android Studio
 - [Flutter](https://flutter.io) - Flutter Official website
 
-## Author
+## Author 😊
 
 **Etornam Sunu Bright**
 
