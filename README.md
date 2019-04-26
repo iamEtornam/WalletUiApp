@@ -98,7 +98,7 @@ What things you need to run the app
 
 ## License
 
-Copywrite 2018 Sunu Bright Etornam
+Copyright 2019 Sunu Bright Etornam
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
