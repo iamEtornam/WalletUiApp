@@ -4,9 +4,13 @@
     
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/WalletUiApp/graphs/commit-activity)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
+[![ForTheBadge made-with-flutter](https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg)](https://flutter.dev)
+[![ForTheBadge ios-supported](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://flutter.dev)
+[![ForTheBadge ios-android](https://img.shields.io/badge/android-android%20supported-green.svg)](https://flutter.dev)
+
 </p>
 
-This project is an implementation of a Design i found on [Uplabs.com](https://www.uplabs.com/posts/wallet-app-iphones)
+This project is an implementation of a Design i found on [Uplabs.com](https://www.uplabs.com/posts/wallet-app-iphones) by [Subramanian](https://www.uplabs.com/subhu)
 
 ## Art
 
@@ -39,7 +43,8 @@ C:\path\to\project> flutter run
 
 ```
 
-##Switch themes
+## Switch Theme
+
 Long press to switch Theme
 
 A few resources to get you started if this is your first Flutter project:
