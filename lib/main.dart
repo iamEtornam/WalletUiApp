@@ -35,10 +35,10 @@ class _DashBoardPageState extends State<DashBoardPage> {
       setState(() {
         logoImage = 'assets/images/wallet_dark_logo.png';
         _backgroundColor = [
-          Color.fromRGBO(255, 212, 61, 1),
-          Color.fromRGBO(255, 212, 55, 1),
-          Color.fromRGBO(255, 211, 48, 1),
-          Color.fromRGBO(255, 211, 43, 1),
+          Color.fromRGBO(252, 214, 0, 1),
+          Color.fromRGBO(251, 207, 6, 1),
+          Color.fromRGBO(250, 197, 16, 1),
+          Color.fromRGBO(249, 161, 28, 1),
         ];
         _iconColor = Colors.white;
         _textColor = Color.fromRGBO(253, 211, 4, 1);
@@ -83,29 +83,31 @@ class _DashBoardPageState extends State<DashBoardPage> {
     return SafeArea(
       child: Scaffold(
         body: GestureDetector(
-          onLongPress: (){
-  if (colorSwitched) {
-                        colorSwitched = false;
-                      } else {
-                        colorSwitched = true;
-                      }
-                      changeTheme();
+          onLongPress: () {
+            if (colorSwitched) {
+              colorSwitched = false;
+            } else {
+              colorSwitched = true;
+            }
+            changeTheme();
           },
-                  child: Container(
+          child: Container(
             height: MediaQuery.of(context).size.height,
             width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.centerLeft,
                     end: Alignment.centerRight,
-                    stops: [0.2, 0.4, 0.6, 0.8],
+                    stops: [0.2, 0.3, 0.5, 0.8],
                     colors: _backgroundColor)),
             child: Column(
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-      
+                SizedBox(
+                  height: 20.0,
+                ),
                 Image.asset(
                   logoImage,
                   fit: BoxFit.contain,
@@ -136,7 +138,7 @@ class _DashBoardPageState extends State<DashBoardPage> {
                           topLeft: Radius.circular(15),
                           topRight: Radius.circular(15))),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.all(5.0),
                     child: Container(
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.only(
