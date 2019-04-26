@@ -1,4 +1,4 @@
-# wallet_ui_app
+# Wallet Ui App
 
 <p align="center">
     
