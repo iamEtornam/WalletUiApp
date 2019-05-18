@@ -80,9 +80,9 @@ class _DashBoardPageState extends State<DashBoardPage> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: GestureDetector(
+    return Scaffold(
+      body: SafeArea(
+              child: GestureDetector(
           onLongPress: () {
             if (colorSwitched) {
               colorSwitched = false;
