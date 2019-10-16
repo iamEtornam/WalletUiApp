@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -215,7 +215,7 @@ class _DashBoardPageState extends State<DashBoardPage> {
     );
   }
 
-  Widget _actionList(var icon, String desc) {
+  Widget _actionList(String iconPath, String desc) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: Column(
@@ -223,7 +223,7 @@ class _DashBoardPageState extends State<DashBoardPage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Image.asset(
-            icon,
+            iconPath,
             fit: BoxFit.contain,
             height: 45.0,
             width: 45.0,
